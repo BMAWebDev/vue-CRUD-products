@@ -27,7 +27,11 @@
 
     <button type="submit">Submit</button>
 
-    <button type="button" @click.prevent="$emit('handleDelete')">
+    <button
+      v-if="productExists"
+      type="button"
+      @click.prevent="$emit('handleDelete')"
+    >
       Delete!
     </button>
   </form>
@@ -43,6 +47,8 @@
         description: '',
         price: 0,
         thumbnail: {},
+
+        productExists: false,
       };
     },
 
@@ -69,6 +75,7 @@
     updated() {
       if (this.product) {
         const { title, description, price, thumbnail } = this.product;
+        this.productExists = true;
 
         // verify if the passed object exists and no entries have been updated
         if (
