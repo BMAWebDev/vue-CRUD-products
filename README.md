@@ -1,29 +1,13 @@
-# challenge-tehnic-vuejs
+# Vue3 CRUD Products
 
-This template should help get you started developing with Vue 3 in Vite.
+## Development
 
-## Recommended IDE Setup
+1. Clone the repo
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+2. `npm i`: install all the dependencies required for the project.
 
-## Customize configuration
+3. `yarn dev`: opens a local server which enables you to see the project.
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## Description
 
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Challenge tehnic VueJS TARA Interactive demonstrating VueJS skills with crud api and state management. See more in the PDF file.
